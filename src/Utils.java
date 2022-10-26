@@ -5,7 +5,6 @@ import java.util.Properties;
 
 enum Utils {
     ;
-
     static Connection getSQLConnection() throws SQLException {
         final Properties properties = new Properties();
 
